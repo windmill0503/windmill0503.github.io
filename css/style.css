@@ -1,7 +1,8 @@
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
+  background: #F7F8FA;
 }
 
 body {
@@ -14,7 +15,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0
+  margin: 0.67em 0;
+  color: #515656;
+  font-family: 'Anonymous Pro', monospace
 }
 
 * {
@@ -68,10 +71,11 @@ h3 {
   font-size: 2rem;
   margin-bottom: 1rem
 }
-
 span {
   font-size: 2rem;
   line-height: 30px;
+  color: #515656;
+  font-family: 'Anonymous Pro', monospace
 }
 
 a, p, code, .code-block, th, td {
@@ -142,5 +146,5 @@ a, p, code, .code-block, th, td {
 /*Github SVG*/
 .github-svg {
 	width: 40px;
-	height: 40px;
+	height: 40px
 }
